@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cofein</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="shadow"></div>
+
+
+    <div class="lang col-lg-5" id="languages"> </div>
+
+
+    <div class="container">
+        <a class="buttonIntoarcere" href="..">
+            < Înapoi </a>
+    </div>
+    <div class="flex-item container ">
+        <div id="categoryButton" onclick="goToButtonsPageBySlug('coffeein')"></div>
+
+        <input type="search" name="gsearch" placeholder="Caută" onchange="setUrlSearchParam('searchValue', this.value)"
+            id="search-input" style="padding: 15px;">
+    </div>
+        <div class="container">
+    <div class=" row " id="products"></div>
+
+    <a class="butt" href="../card/index.html">
+    <div class="container" id="basket">
+        <div class="finish-order"> Finiseaza comanda </div>
+        <div id="total-price">
+            <div class="total">Total:</div>
+            <div class="price" id="pricee">27<sup><small>lei</small></sup> </div>
+        </div>
+        <div class="count" id="count"></div>
+    </div>
+    </a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footerr row">
+                <div class="left-child col-lg-2" id="footerFoto"></div>
+                <div class="informationphoto col-lg-3">
+                    <img class="instagram" src="images/instagram_ic.svg">
+                    <img class="youtube" src="images/Youtube_ic.svg">
+                    <img class="facebook" src="images/Facebook_ic.svg">
+                </div>
+                <div class="right-child col-lg-7">
+                    <div id="map"></div>
+
+                </div>
+            </div>
+            <div class="developed"></div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

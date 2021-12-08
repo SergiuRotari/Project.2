@@ -1,0 +1,83 @@
+
+.slider1{
+   padding: 50px 50px 50px 50px;
+}
+.slider{
+   background-color:  #3A3A3A;
+}
+
+.content{
+   color: #FFFEFE;
+   font-family: Mulish;
+   font-style: normal;
+   font-weight: bold;
+   margin-left: 50px;
+   width: 45%;
+}
+
+
+.title{
+   font-size: 32px;
+   line-height: 40px;
+   margin-top: 45px;
+   }
+   
+.description{
+font-size: 18px;
+line-height: 23px;
+margin-top: 25px;
+margin-bottom: 25px;
+   }
+
+.button {
+background-color: #106E18;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+padding: 15px 343px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+color: white;
+
+margin-top: 25px;
+display: flex;
+justify-content: center;
+width: 863px;
+height: 58px;
+
+}
+
+.phone{
+   margin-left: -10px;
+   width: 12%;
+}
+
+.company-buttons{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+   justify-content: center;
+   
+}
+
+.coffein{
+   background: #000000;
+border-radius: 12px;
+margin-right: 70px;
+width: 400px;
+height: 200px;
+}
+
+.apetit{
+   background: #000000;
+border-radius: 12px;
+width: 400px;
+height: 200px;
+padding: 20px 30px
+}
+
